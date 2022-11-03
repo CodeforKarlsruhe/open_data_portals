@@ -1,0 +1,20 @@
+# Wie geht man mit den Workflows um?
+Die Workflows können in das Tool KNIME (https://www.knime.com/) importiert und ausgeführt werden.
+Zuerst muss aber in der Definition der Variablen der Pfad zu den Ein- oder Ausgabedateien angepasst werden. Der hängt immer vom Rechner des Anwendersa ab.
+
+## Eingabe
+Die Eingabe besteht aus zwei Dateien:
+- einer CSV-Datei mit Angaben zu den CKAN- oder DKAN-Portalen, in der mit einem Flag geregelt werden kann, ob das Portal bei der Verarbeitung verwendet wird. Wenn alle Portale verwendet werden dauert die Verarbeitung mehrere Stunden.
+- einer CSV-Datei mit Angaben zu Portalen im OpenDatasoft Format. Hier gibt es aktuell kein Flag.
+
+## Workflows
+Die Workflows bestehen aus drei Teilen, die voneinander abhängen:
+- ein Workflow für CKAN- oder DKAN-Portale, der die Ergebnisse in dem Ordner "Ergebnisdateien_V02" ablegt.
+- ein Workflow für andere Portale, der seine Ergebnisse im Ordner "Ergebnisdateien_andere" ablegt.
+- ein Workflow, der die Dateien aus den beiden oben genannten Ordnern einliest und die Angaben kombiniert und im Ordner "Ergebnisdateien_kombiniert" ablegt.
+
+Die Inhalte der drei Ordner sind aus Platzgründen in der ZIP-Datei "Ergebnisdateien_kombiniert.zip" abgelegt.
+
+## Ergebnisse
+Wie bereits erwähnt, wurden die Ergebnisse einer Verarbeitung mit wenigen Portalen in der Datei "Ergebnisdateien_kombiniert.zip" zusammengefasst.
+Diese Dateien können mit entsprechende Tools eingelesen werden, um Auswertungen darauf zu erstellen.
