@@ -23,3 +23,6 @@ Mit den entwickelten Verarbeitungsprozessen werden die aus den APIs gelieferten 
 Die Ergebnisse werden aktuell hauptsächlich als CSV-Dateien bereitgestellt. Beziehungen zwischen Objekten (Zeilen) aus unterschiedlichen Dateien werden über dafür generierte Schlüsselfelder hergesetllt. So können z.B. alle Ressourcen eines Portals identifiziert werden, aber auch die Ressourcen eines bestimmten Packages oder einer Gruppe.
 ## Verarbeitungsprozesse
 Der Abruf und die Verarbeitung der Objekte wird über das Tool KNIME ausgeführt. Hier sind mehrere Prozesse entstanden, die die Daten besorgen, bereinigen und aufbereiten bzw. am Ende dann die verschiedenen Quellen miteinander kombinieren und in gemeinsamen Dateien ablegen.
+
+## Auswertung
+Um zu zeigen, wie man mit den Ergebnissen umgehen kann, wurde eine Beispielauswertung mit dem Tool Power BI Desktop erstellt, die ein Datenmodell aufbaut und darauf Auswertungen zeigt.
