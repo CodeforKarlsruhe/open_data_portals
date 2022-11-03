@@ -1,0 +1,9 @@
+# Beispielauswertung mit Power BI
+Die Daten aus dem Ordner mit den kombinierten Ergebnissen wurden in Power Bi eingelesen.
+Die mit den Schlüsselattributen amngegebenen Beziehungen wiurden zum Erstellen eines Datenmodells verwendet und mit diesem Modell wurden einige Beispielauswertungen (/ Visualisierungen erstellt.
+Diese sollen nur als Beispiele und Anregungen verstanden werden, mit den Daten und dem Toll sind viele weitergehende Auswertungen möglich.
+
+Um die Datei zu öffnen muss das Tool Power BI Desktop heruntergeladen und installiert werden (https://powerbi.microsoft.com/de-de/downloads/). Das Tool ist zum Zeitpunkt der Erstellung dieser Datei nur für Windows verfügbar.
+Zum Umgang mit Power BI existieren sehr viele Totorials und es gibt eine gute und aktiv gepflegte Dokumentation dazu.
+
+Die Daten sind aber unabhängig von Power BI mit beliebigen anderen Tools ebenso auswertbar (z.B Qlik, Tableau, ...)
